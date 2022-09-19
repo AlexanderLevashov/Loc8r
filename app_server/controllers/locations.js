@@ -6,6 +6,7 @@ module.exports.homelist = function(reg, res) {
       title: 'FindPlaces',
       strapline: 'Find places to work with Wi-Fi near you!'
     },
+    sidebar: "Looking for Wi-Fi and seat? Loc8r helps you find places to work when out and about. Perhaps with coffee, cake or a pint? Let Loc8r help you find the place you're looking for.",
     locations: [{
       name: 'Starcups',
       address: '125 High Street, Reading, RG6 1PS',

@@ -4,6 +4,14 @@ body {
   background-color: #F7ECDE;
 }
 
+.col-lg-6 {
+  color: #bbbbbb;
+}
+
+.lead {
+  color: #bbbbbb;
+}
+
 .navbar-default{
   background-color: #553939;
 }
@@ -12,6 +20,9 @@ body {
   background-color: #EAE3D2;
 }
 
+.panel-heading {
+  background-color: #ad1d28;
+}
 
 a {
   color: #00B7FF;
