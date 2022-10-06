@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var ctrlMain = require('../controllers/others');
-var ctrlLocations = require('../controllers/locations');
+var ctrlLocations = require('../controllers/location');
 var ctrlOthers = require('../controllers/others');
 
 /* GET home page. */
@@ -13,6 +13,7 @@ var homepageController = function(reg, res) {
 router.get('/', ctrlLocations.homelist);
 router.get('/location', ctrlLocations.locationInfo);
 router.get('/location/review/new', ctrlLocations.addReview);
+//router.post('/location', ctrlLocations.locationsCreate);
 
 /* Другие страницы */
 router.get('/about', ctrlOthers.about)
