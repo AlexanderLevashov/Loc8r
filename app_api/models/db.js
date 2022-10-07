@@ -1,5 +1,5 @@
 var mongoose = require( 'mongoose' );
-var dbURI = 'mongodb://localhost/loc8r';
+var dbURI = 'mongodb://localhost:27017';
 // if (process.env.NODE_ENV === 'production') {
   // dbURI = process.env.MONGODB_URI;
 mongoose.connect(dbURI);
